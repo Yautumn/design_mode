@@ -1,14 +1,14 @@
 package com.yautumn.command;
 
 /**
- * ÃüÁîÄ£Ê½Ö´ĞĞÕß
+ * å‘½ä»¤æ¨¡å¼æ‰§è¡Œè€…
  * @author Administrator
  *
  */
 public class Receiver {
 	
 	public void executeCommand() {
-		System.out.println("Ö´ĞĞÃüÁî£¡");
+		System.out.println("æ‰§è¡Œå‘½ä»¤ï¼");
 	}
 
 }

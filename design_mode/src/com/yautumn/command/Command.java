@@ -1,7 +1,7 @@
 package com.yautumn.command;
 
 /**
- * 命令模式命令接口
+ * 鍛戒护妯″紡鍛戒护鎺ュ彛
  * @author Administrator
  *
  */

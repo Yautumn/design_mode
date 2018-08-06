@@ -7,13 +7,13 @@ public class Appliaction {
 		SpecificSubject specificSubject = new SpecificSubject();
 		new SpecificObserver(specificSubject, "A.txt");
 		new SpecifiObserverSecond(specificSubject, "B.txt");
-		specificSubject.giveNewMes("ÌÚ»Ô¹«Ë¾ĞèÒª10¸öjava³ÌĞòÔ±¡£");
+		specificSubject.giveNewMes("è…¾è¾‰å…¬å¸éœ€è¦10ä¸ªjavaç¨‹åºå‘˜ã€‚");
 		specificSubject.notifyObserver();
-		specificSubject.giveNewMes("º£¾°¹«Ë¾ĞèÒª8¸ö¶¯»­Éè¼ÆÊ¦¡£");
+		specificSubject.giveNewMes("æµ·æ™¯å…¬å¸éœ€è¦8ä¸ªåŠ¨ç”»è®¾è®¡å¸ˆã€‚");
 		specificSubject.notifyObserver();
-		specificSubject.giveNewMes("ÈÊº£¹«Ë¾ĞèÒª9¸öµç¹¤¡£");
+		specificSubject.giveNewMes("ä»æµ·å…¬å¸éœ€è¦9ä¸ªç”µå·¥ã€‚");
 		specificSubject.notifyObserver();
-		specificSubject.giveNewMes("ÈÊº£¹«Ë¾ĞèÒª9¸öµç¹¤¡£");
+		specificSubject.giveNewMes("ä»æµ·å…¬å¸éœ€è¦9ä¸ªç”µå·¥ã€‚");
 		specificSubject.notifyObserver();
 	}
 

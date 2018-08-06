@@ -19,14 +19,14 @@ public class SpecifiObserverSecond implements Observer {
 	public void doSomething(String something) {
 		// TODO Auto-generated method stub
 		try {
-			boolean boo = something.contains("java") || something.contains("软件");
+			boolean boo = something.contains("java") || something.contains("杞欢");
 			if (boo) {
 				RandomAccessFile out = new RandomAccessFile(myFile, "rw");
 				out.seek(out.length());
 				byte[] b = something.getBytes();
 				out.write(b);
 			} else {
-				System.out.println("没有信息");
+				System.out.println("娌℃湁淇℃伅");
 			}
 		} catch (Exception e) {
 			// TODO: handle exception

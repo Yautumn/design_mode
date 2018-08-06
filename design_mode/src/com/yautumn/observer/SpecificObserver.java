@@ -23,7 +23,7 @@ public class SpecificObserver implements Observer {
 			out.seek(out.length());
 			byte [] b = something.getBytes();
 			out.write(b);
-			System.out.println("我向文件" + myFile.getName()+ "写入内容" + something);
+			System.out.println("鎴戝悜鏂囦欢" + myFile.getName()+ "鍐欏叆鍐呭" + something);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
