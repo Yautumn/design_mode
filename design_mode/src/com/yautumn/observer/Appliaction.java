@@ -13,7 +13,7 @@ public class Appliaction {
 		specificSubject.notifyObserver();
 		specificSubject.giveNewMes("仁海公司需要9个电工。");
 		specificSubject.notifyObserver();
-		specificSubject.giveNewMes("仁海公司需要9个电工。");
+		specificSubject.giveNewMes("java");
 		specificSubject.notifyObserver();
 	}
 
