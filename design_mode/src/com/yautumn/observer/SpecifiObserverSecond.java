@@ -3,6 +3,11 @@ package com.yautumn.observer;
 import java.io.File;
 import java.io.RandomAccessFile;
 
+/**
+ * 观察值2接收观察者1修改文件通知，并在接收通知后做一些操作
+ * @author Administrator
+ *
+ */
 public class SpecifiObserverSecond implements Observer {
 
 	Subject subject;

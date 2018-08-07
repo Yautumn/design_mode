@@ -4,6 +4,11 @@ import java.io.File;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 
+/**
+ * 观察者1向文件添加、修改数据
+ * @author Administrator
+ *
+ */
 public class SpecificObserver implements Observer {
 	
 	Subject subject;

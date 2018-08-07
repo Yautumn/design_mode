@@ -2,6 +2,11 @@ package com.yautumn.observer;
 
 import java.util.ArrayList;
 
+/**
+ * 具体主题
+ * @author Administrator
+ *
+ */
 public class SpecificSubject implements Subject {
 	
 	String message;
